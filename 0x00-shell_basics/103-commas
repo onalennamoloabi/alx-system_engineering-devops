@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -xamp
+ls -1 | tr '\n' ',' | xargs echo
